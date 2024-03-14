@@ -1,0 +1,129 @@
+    param_name                         accessible                     available_values                     current_value                  
+    ------------                       -----------                    -----------------                    ---------------                
+    PARAM_ACCUM_CAPABLE                N/A                            error: attribute                     N/A                            
+    PARAM_ACTUAL_GAIN                  N/A                            error: attribute                     N/A                            
+    PARAM_ADC_OFFSET                   2                              NA                                   0                              
+    PARAM_BINNING_PAR                  1                              1x1: 1                               1                              
+                                                                      2x2: 2                                                              
+    PARAM_BINNING_SER                  1                              1x1: 1                               1                              
+                                                                      2x2: 2                                                              
+    PARAM_BIT_DEPTH                    1                              NA                                   16                             
+    PARAM_BOF_EOF_CLR                  True                           NA                                   True                           
+    PARAM_BOF_EOF_COUNT                1                              NA                                   0                              
+    PARAM_BOF_EOF_ENABLE               2                              No Bof or Eof: 0                     0                              
+                                                                      Bof Only: 1                                                         
+                                                                      Eof Only: 2                                                         
+                                                                      Bof and Eof: 3                                                      
+    PARAM_CAMERA_PART_NUMBER           N/A                            error: attribute                     N/A                            
+    PARAM_CAM_FW_VERSION               1                              NA                                   4355                           
+    PARAM_CAM_INTERFACE_MODE           N/A                            error: attribute                     N/A                            
+    PARAM_CAM_INTERFACE_TYPE           N/A                            error: attribute                     N/A                            
+    PARAM_CENTROIDS_COUNT              2                              NA                                   512                            
+    PARAM_CENTROIDS_ENABLED            True                           NA                                   False                          
+    PARAM_CENTROIDS_RADIUS             2                              NA                                   15                             
+    PARAM_CHIP_NAME                    '\x01'                         NA                                   CIS2020F                       
+    PARAM_CIRC_BUFFER                  True                           NA                                   True                           
+    PARAM_CLEARING_TIME                N/A                            error: attribute                     N/A                            
+    PARAM_CLEAR_CYCLES                 2                              NA                                   2                              
+    PARAM_CLEAR_MODE                   2                              Never: 0                             1                              
+                                                                      Pre-Exposure: 1                                                     
+                                                                      Pre-Sequence: 2                                                     
+                                                                      Post-Sequence: 3                                                    
+                                                                      Pre- and Post-Sequence: 4                                           
+                                                                      Pre-Exposure and Post-Sequence: 5                                   
+    PARAM_COLOR_MODE                   N/A                            error: attribute                     N/A                            
+    PARAM_COOLING_MODE                 1                              Air or Water: 0                      0                              
+                                                                      Cryogenic: 1                                                        
+                                                                      No cooling: 2                                                       
+    PARAM_DD_INFO                      '\x01'                         NA                                   ? resulting in error           
+    PARAM_DD_INFO_LENGTH               1                              NA                                   256                            
+    PARAM_DD_RETRIES                   2                              NA                                   1000                           
+    PARAM_DD_TIMEOUT                   2                              NA                                   1000                           
+    PARAM_DD_VERSION                   1                              NA                                   512                            
+    PARAM_EXPOSE_OUT_MODE              1                              First Row: 0                         0                              
+                                                                      All Rows: 1                                                         
+                                                                      Any Row: 2                                                          
+    PARAM_EXPOSURE_MODE                1                              Internal Trigger: 1792               1792                           
+                                                                      Edge Trigger: 2304                                                  
+                                                                      Trigger first: 2048                                                 
+    PARAM_EXPOSURE_TIME                1                              NA                                   1                              
+    PARAM_EXP_RES                      2                              One Millisecond: 0                   0                              
+                                                                      One Microsecond: 1                                                  
+    PARAM_EXP_RES_INDEX                2                              NA                                   0                              
+    PARAM_EXP_TIME                     2                              NA                                   0                              
+    PARAM_FAN_SPEED_SETPOINT           2                              High: 0                              0                              
+                                                                      Medium: 1                                                           
+                                                                      Low: 2                                                              
+                                                                      Off(Liquid Cooled): 3                                               
+    PARAM_FLASH_DWNLD_CAPABLE          True                           NA                                   True                           
+    PARAM_FRAME_BUFFER_SIZE            1                              NA                                   8388608                        
+    PARAM_FRAME_CAPABLE                N/A                            error: attribute                     N/A                            
+    PARAM_FWELL_CAPACITY               1                              NA                                   30000                          
+    PARAM_GAIN_INDEX                   2                              NA                                   1                              
+    PARAM_GAIN_MULT_ENABLE             N/A                            error: attribute                     N/A                            
+    PARAM_GAIN_MULT_FACTOR             N/A                            error: attribute                     N/A                            
+    PARAM_GAIN_NAME                    N/A                            error: attribute                     N/A                            
+    PARAM_HEAD_SER_NUM_ALPHA           '\x01'                         NA                                   A16E202016                     
+    PARAM_IO_ADDR                      N/A                            error: attribute                     N/A                            
+    PARAM_IO_BITDEPTH                  N/A                            error: attribute                     N/A                            
+    PARAM_IO_DIRECTION                 N/A                            error: attribute                     N/A                            
+    PARAM_IO_STATE                     N/A                            error: attribute                     N/A                            
+    PARAM_IO_TYPE                      N/A                            error: attribute                     N/A                            
+    PARAM_LAST_MUXED_SIGNAL            2                              NA                                   1                              
+    PARAM_METADATA_ENABLED             True                           NA                                   False                          
+    PARAM_MPP_CAPABLE                  N/A                            error: attribute                     N/A                            
+    PARAM_NAME_LEN                     N/A                            error: attribute                     N/A                            
+    PARAM_PAR_SIZE                     1                              NA                                   2048                           
+    PARAM_PCI_FW_VERSION               1                              NA                                   1                              
+    PARAM_PIX_PAR_DIST                 1                              NA                                   6500                           
+    PARAM_PIX_PAR_SIZE                 1                              NA                                   6500                           
+    PARAM_PIX_SER_DIST                 1                              NA                                   6500                           
+    PARAM_PIX_SER_SIZE                 1                              NA                                   6500                           
+    PARAM_PIX_TIME                     1                              NA                                   10                             
+    PARAM_PMODE                        2                              Normal: 0                            0                              
+                                                                      Alternate Normal: 4                                                 
+    PARAM_POSTMASK                     N/A                            error: attribute                     N/A                            
+    PARAM_POSTSCAN                     N/A                            error: attribute                     N/A                            
+    PARAM_POST_TRIGGER_DELAY           N/A                            error: attribute                     N/A                            
+    PARAM_PP_FEAT_ID                   1                              NA                                   13                             
+    PARAM_PP_FEAT_NAME                 '\x01'                         NA                                   DESPECKLE BRIGHT LOW           
+    PARAM_PP_INDEX                     2                              NA                                   0                              
+    PARAM_PP_PARAM                     2                              NA                                   110                            
+    PARAM_PP_PARAM_ID                  1                              NA                                   131                            
+    PARAM_PP_PARAM_INDEX               2                              NA                                   1                              
+    PARAM_PP_PARAM_NAME                '\x01'                         NA                                   THRESHOLD                      
+    PARAM_PREAMP_DELAY                 1                              NA                                   0                              
+    PARAM_PREAMP_OFF_CONTROL           2                              NA                                   10000                          
+    PARAM_PREMASK                      N/A                            error: attribute                     N/A                            
+    PARAM_PRESCAN                      N/A                            error: attribute                     N/A                            
+    PARAM_PRE_TRIGGER_DELAY            N/A                            error: attribute                     N/A                            
+    PARAM_PRODUCT_NAME                 N/A                            error: attribute                     N/A                            
+    PARAM_READOUT_PORT                 2                              CMOS: 0                              0                              
+    PARAM_READOUT_TIME                 N/A                            error: attribute                     N/A                            
+    PARAM_READ_NOISE                   N/A                            error: attribute                     N/A                            
+    PARAM_ROI_COUNT                    1                              NA                                   1                              
+    PARAM_SER_SIZE                     1                              NA                                   2048                           
+    PARAM_SHTR_CLOSE_DELAY             2                              NA                                   0                              
+    PARAM_SHTR_OPEN_DELAY              2                              NA                                   0                              
+    PARAM_SHTR_OPEN_MODE               2                              Never: 0                             1                              
+                                                                      Pre-Exposure: 1                                                     
+                                                                      Pre-Sequence: 2                                                     
+                                                                      Pre-Trigger: 3                                                      
+                                                                      Do Not Change: 4                                                    
+    PARAM_SHTR_STATUS                  1                              Fault: 0                             0                              
+                                                                      Opening: 1                                                          
+                                                                      Open: 2                                                             
+                                                                      Closing: 3                                                          
+                                                                      Closed: 4                                                           
+                                                                      Unknown: 5                                                          
+    PARAM_SMART_STREAM_DLY_PARAMS      N/A                            error: attribute                     N/A                            
+    PARAM_SMART_STREAM_EXP_PARAMS      unKnown: datatype not match    NA                                   unKnown: datatype not match    
+    PARAM_SMART_STREAM_MODE            2                              NA                                   0                              
+    PARAM_SMART_STREAM_MODE_ENABLED    True                           NA                                   False                          
+    PARAM_SPDTAB_INDEX                 2                              NA                                   0                              
+    PARAM_SUMMING_WELL                 N/A                            error: attribute                     N/A                            
+    PARAM_SYSTEM_NAME                  N/A                            error: attribute                     N/A                            
+    PARAM_TEMP                         1                              NA                                   -1003                          
+    PARAM_TEMP_SETPOINT                2                              NA                                   -1000                          
+    PARAM_TRIGTAB_SIGNAL               2                              Expose Out: 0                        0                              
+    PARAM_VENDOR_NAME                  N/A                            error: attribute                     N/A                            

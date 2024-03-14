@@ -1,0 +1,30 @@
+2019-02-08
+it seems that only difference between default setting at camera start up and
+Photometrics provided setting is the about the PARAM_PP settings (post-processing)
+
+                                default            PM provided
+    PARAM_PP_PARAM_ID              131                 152
+    PARAM_PP_FEAT_ID                13                  15
+
+
+
+
+trying to read 'PARAM_DD_INFO' current value results in python shutdown
+access 'PARAM_SMART_STREAM_EXP_PARAMS' with ATTR_AVAIL raise RuntimeError: failed to match datatype
+
+
+for ATTR_ACCESS:
+    1: read only
+    2: read-write
+    3: check only
+    4: write only
+
+
+
+I am trying to use the camera with the Python PVCAM wrapper Pyvcam (https://github.com/Photometrics/PyVCAM). There are some questions I would like to ask:
+
+1) when the camera is connected directly from Python without modified any settings, the frames I got seem to be arrays filled with frame number but not actual sensor readings, i.e. first frame is a 2048*2048 array with the same value 2, 2nd frame with value 3 and so on. Changing the mode of the camera seems do not affect this behavior. However, using micro-manager to access the camera and load the configuration file shipped with the camera do change the frame value to actual sensor reading. My question is, how do I configure the camera correctly in Python? I am not familiar with the micromanager system to understand how the configuration file works. When I compare all the parameters before and after loading the configuration file in Python, the only parameters changed seems to be PARAM_PP_INDEX (default 0, 4 after loading configuration) and associated PARAM_PP_PARAM_ID (131 default to 152 after loading configuration file) and PARAM_PP_FEAT_ID (13 to 15), but changing these settings in Python does not change the frames.
+
+2) is there a way the get the current frame number when reading frames? seems this can be done in micromanager. I tried enable the metadata using the set_param method, but after enabling metadata the get_frame method does not work because it does not know how to deal with the metadata added to the frame buffer. is there a solution to this?
+
+I am using PVCAM 3.7.5.7, PVCAM SDK build 44, and Python 3.7

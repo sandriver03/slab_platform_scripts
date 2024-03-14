@@ -1,0 +1,27 @@
+import struct
+
+header_string = st.params['header_format']
+fd.start()
+
+while True:
+    if st.monitor_socket.poll(0):
+        stat = st.monitor_socket.recv_multipart()[0]
+        print(stat.__len__())
+        ndim = struct.unpack('!Q', stat[:8])[0]
+        try:
+            info_all = struct.unpack('!' + 'Q' * (ndim + 2) + 'q' * ndim + header_string, stat[8:])
+        except MemoryError:
+            raise
+        index = info_all[0]
+        info = info_all[1:(2 * ndim + 2)]
+        header = info_all[(2 * ndim + 2):]
+        last_packet_N = header[0]
+    else:
+        last_packet_N = st.latest_packet_N
+
+    N_toread = last_packet_N - st.N_packet
+    if N_toread > 0:
+        for idx in range(N_toread):
+            st.recv()
+
+    time.sleep(0.01)

@@ -1,0 +1,9 @@
+name,id,azimuth,elevation,distance,channel_analog,TDT_analog,TDT_idx_analog,channel_digital,TDT_digital,TDT_idx_digital
+MF1,0,0,0,0.28,11,RX8,1,,,
+MF1,1,0,30,0.28,9,RX8,1,,,
+MF1,2,0,-30,0.28,10,RX8,1,,,
+MF1,3,0,90,0.28,12,RX8,1,,,
+MF1,4,45,0,0.28,13,RX8,1,,,
+MF1,5,-45,0,0.28,14,RX8,1,,,
+MF1,6,60,0,0.28,15,RX8,1,,,
+MF1,7,-90,0,0.16,16,RX8,1,,,
